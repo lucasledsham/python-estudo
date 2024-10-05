@@ -6,7 +6,7 @@ print("[1] " + cursos[0])
 print("[2] " + cursos[1])
 print("[3] " + cursos[2])
 
-cursoEscolhido = int(input("Digite o número do curso desejado: "))""
+cursoEscolhido = int(input("Digite o número do curso desejado: "))
 
 curso_Escolhido_Verificacao = cursoEscolhido > 0 and cursoEscolhido <= len(cursos)
 
